@@ -24,7 +24,7 @@ Bronze → Silver → Gold
 Databricks AI/BI
 ```
 
-### Event Generation
+### Financial Event Generation
 
 The controlled generator produces:
 
@@ -93,7 +93,7 @@ Delta MERGE
 
 Silver validates required fields and financial values, and deduplicates replayed events before MERGE.
 
-### Gold
+### Gold — Financial Operations Data Products
 
 ```text
 dev.gold.payment_performance
@@ -179,7 +179,7 @@ Static_Ingestion → Silver_Processing_Static
                       Gold_Processing
 ```
 
-The job runs every **5 minutes**; each streaming task processes the currently available data and completes.
+The Databricks Job runs every 5 minutes, and each availableNow streaming task processes the currently available data before completing.
 
 ## Static / Reference Data
 
@@ -280,7 +280,9 @@ Databricks AI/BI consumes the Gold layer and provides:
 - Refund Amount
 - Chargeback Amount
 
-The analytics layer demonstrates how engineered Gold data becomes business insight.
+The analytics layer demonstrates how engineered Gold data becomes business insight. 
+
+These metrics provide operational visibility into transaction health and financial performance.
 
 ## Screenshots
 
@@ -290,7 +292,7 @@ The analytics layer demonstrates how engineered Gold data becomes business insig
 
 ### Databricks AI/BI Dashboard Results
 
-> These metrics provide operational visibility into transaction health and financial performance.
+
 
 
 ![FinOps AI/BI Dashboard](docs/Dashboard1.png)
