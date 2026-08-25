@@ -1,6 +1,6 @@
 # FinOps Real-Time Streaming Platform
 
-A production-style real-time data platform that ingests FinOps events from Kafka, processes them through Bronze → Silver → Gold Delta layers, and exposes business insights through Databricks AI/BI.
+A production-grade real-time Financial Operations platform that ingests transactional events through Kafka, processes them using PySpark Structured Streaming across Bronze, Silver, and Gold Delta layers, and delivers actionable business insights through Databricks AI/BI.
 
 ## Architecture
 
