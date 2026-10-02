@@ -1,6 +1,6 @@
 # Financial Operations Near-Real-Time Streaming Platform
 
-A production-grade real-time Financial Operations platform that ingests transactional events through Kafka, processes them using PySpark Structured Streaming across Bronze, Silver, and Gold Delta layers, and delivers actionable business insights through Databricks AI/BI.
+A production-grade near real-time Financial Operations platform that ingests transactional events through Kafka, processes them using PySpark Structured Streaming across Bronze, Silver, and Gold Delta layers, and delivers actionable business insights through Databricks AI/BI.
 
 > In this project, FinOps refers to Financial Operations — the real-time monitoring and analysis of transactional financial activity.
 
